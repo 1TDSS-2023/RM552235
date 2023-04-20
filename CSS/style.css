@@ -1,6 +1,7 @@
 @import url("./cabecalho.css");
 @import url("./conteudo.css");
 @import url("./footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 
 *{
     padding: 0;
@@ -19,9 +20,20 @@ html{
 
 }
 
-/* BREAKPOINTS */
+/* BREAKPOINT 590px */
 
-@media (max-width:1500px) {
-    body{
+@media (max-width:600px) {
+    .cabecalho{
+        flex-direction: column;
+
+    }
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+
+    .cabecalho a{
+        padding: 9.25vh 0;
     }
 }
+
+/* BREAKPOINT 590px */

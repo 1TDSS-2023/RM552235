@@ -1,20 +1,24 @@
-.conteudo img{
-    max-width: 100%;
-    display: block;
-}
-
 .conteudo{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
-    
+}
+
+.conteudo img{
+    max-width: 100%;
+    display: block;
+}
+
+p{
+    font-family: 'Oswald', sans-serif;
 }
 
 .conteudo > div{
-    /* flex-grow: 1;
+    flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 300px; */
+    flex-basis: 300px;
     font-size: 2em;
 }
+
